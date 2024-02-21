@@ -1,0 +1,48 @@
+.sidebar {
+    background-color: #F2F2F2;
+  flex: 1;
+  border-right: 0.5px solid blue;
+  min-height: 100vh;
+
+  .top {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .center {
+  
+    ul {
+    
+      list-style: none;
+       margin: 0;
+       padding: 0;
+       gap: 5px;
+
+       li {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        justify-content: center;
+       }
+
+       .groups{
+        margin: 0 25px;
+        padding: 8px 0;
+        background-color: white;
+        border-radius: 20px;
+
+          .bright  {
+            margin: 0;
+            margin-bottom: 15px;
+          }
+
+          .moon{
+            margin: 0;
+          }
+       }
+    }
+  }
+}
